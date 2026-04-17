@@ -24,13 +24,6 @@ Une fois les données extraites, la classe `ItemAnalyzer` a pour objectif de fou
 4.  **Meilleur pourcentage à 2 points** (`getPlusHautPourcentage2Point`) : Extraire le taux de réussite maximum à 2 points.
 5.  **Meilleur pourcentage à 3 points** (`getPlusHautPourcentage3Point`) : Extraire le taux de réussite maximum à 3 points.
 
-## État du Projet (À compléter)
-
-Le code actuel fournit l'**architecture et le squelette** de l'application. Pour que le programme soit 100% fonctionnel, les éléments suivants doivent être implémentés par le développeur :
-
-- [ ] **Logique de Scraping** : Remplacer la boucle infinie et les `null` dans `ItemsScrapper.java` par de vraies expressions régulières (Regex) ou un parseur HTML (comme Jsoup) pour extraire les données de la variable `pageSource`.
-- [ ] **Logique d'Analyse** : Remplacer les retours `null` dans `ItemAnalyzer.java` par des algorithmes de tri, de comptage (ex: `HashMap` pour compter les récurrences) et de recherche de maximums sur la liste `items`.
-
 ## Exécution
 
 ### Prérequis
